@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="common" template="/WEB-INF/views/layout/layout.jsp">
+		<put-attribute name="footer" value="/WEB-INF/views/layout/footer.jsp" />
+	</definition>
+	<definition name="index" extends="common">
+		<put-attribute name="title" value="VFK Docker Repository UI Home" />
+		<put-attribute name="body" value="/WEB-INF/views/index.jsp" />
+		<put-attribute name="current" value="index"></put-attribute>
+	</definition>
+	<definition name="repositories" extends="common">
+		<put-attribute name="title" value="VFK Docker Repository UI Repositories" />
+		<put-attribute name="body" value="/WEB-INF/views/repositories.jsp" />
+		<put-attribute name="current" value="repositories"></put-attribute>
+	</definition>
+	<definition name="about" extends="common">
+		<put-attribute name="title" value="VFK Docker Repository UI About" />
+		<put-attribute name="body" value="/WEB-INF/views/about.jsp" />
+		<put-attribute name="current" value="about"></put-attribute>
+	</definition>
+</tiles-definitions>

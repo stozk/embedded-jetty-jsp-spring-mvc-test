@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//src/main/java/ca/unx/template/EchoService.java=UTF-8
+encoding//src/main/java/ca/unx/template/Main.java=UTF-8
+encoding//src/main/java/ca/unx/template/config/JettyConfiguration.java=UTF-8
+encoding//src/main/java/ca/unx/template/config/MvcConfiguration.java=UTF-8
+encoding//src/main/java/ca/unx/template/config/RootConfiguration.java=UTF-8
+encoding//src/main/java/ca/unx/template/config/SpringSecurityConfiguration.java=UTF-8
+encoding//src/main/java/ca/unx/template/config/WebAppInitializer.java=UTF-8
+encoding//src/main/java/ca/unx/template/web/AdminController.java=UTF-8
+encoding//src/main/java/ca/unx/template/web/HomeController.java=UTF-8
